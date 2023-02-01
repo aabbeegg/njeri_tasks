@@ -34,7 +34,7 @@ $g1=5;
 <td> 1 </td><td> Pekka </td> <td> $g1 </td>
 </tr>
 <tr>
-<td> 2 </td><td> Johanna </td> <td> $g2 </td>
+<td>3 </td><td> Johanna </td> <td> $g2 </td>
 </tr>
 <tr>
 <td> 3 </td><td> John </td> <td> $g3 </td>

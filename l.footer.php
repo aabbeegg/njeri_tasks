@@ -19,7 +19,7 @@
 }
 
 .social-links a {
-  margin: 0 10px;
+  margin: 1 10px;
   text-decoration: none;
   color: #333;
 }
@@ -27,7 +27,7 @@
 .social-links .facebook {
   background: darkgray;
   padding: 10px;
-  border-radius: 50%;
+  border-radius: 40%;
 }
 
 .social-links .instagram {
