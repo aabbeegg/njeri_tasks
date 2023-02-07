@@ -9,6 +9,16 @@ function fullName(){
     echo "My name is $fullname";
 }
 fullname();
+//global scope
+
+//local scope
+function test(){
+    $a = 28;
+    echo $a;
+    global $fname;
+}
+test();
+echo $fname . " " . $lname;
 ?>
 
 </body>
