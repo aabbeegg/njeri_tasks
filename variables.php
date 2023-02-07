@@ -5,8 +5,8 @@ $lname="njeri";
 function fullName(){
     //used global to access global variables outside the function
     global $fname, $lname;
-    $fullname = $fname - $lname;
-    echo "My name is $fullname";
+   $fullname = $fname." ".$lname;
+    echo "My name is $fullname ";
 }
 fullname();
 //global scope

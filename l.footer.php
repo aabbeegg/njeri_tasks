@@ -51,7 +51,7 @@ border-radius:50%;
 <div class="contact-info">
   <h2>Contact Us:</h2>
           <h3>Salsa Restaurant</h3>
-          <p>Address: visamaki23, Hämeenlinna</p>
+          <p>Address: visamaki 23, Hämeenlinna</p>
           <p>Phone: 044 123 4567</p>
           <p>Email: salsa.restaurant@gmail.com</p>
 
@@ -66,7 +66,12 @@ border-radius:50%;
 <div class="row">
 
   <!-- Copyright -->
-  <div class="footer-copyright text-center py-3">© 2020 Copyright
+ 
+  <div class="footer-copyright text-center py-3">  © 2020 Copyright
+    <br>
+  <?php
+  echo "This was last modified on " . date("Y/m/d") . "<br>";
+  ?>
   </div>
   <!-- Copyright -->
 
