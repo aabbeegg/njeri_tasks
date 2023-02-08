@@ -16,7 +16,7 @@
           <a class="nav-link" href="exe1.php">ex1.php</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="aboutus.php">About Us</a>
+          <a class="nav-link" href="variable.php">Variable php</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="contactus.php">Contact US</a>

@@ -34,7 +34,7 @@
 </div>
 
 </form>
-
+<br>
 <h3> 3.5 Table and variables </h3>
 <?php
 $g1=5;
@@ -59,27 +59,42 @@ $g1=5;
 </tr>
 </table>
 
-
+<br>
 <?php 
  $language1="Beverly";
  $language2="HTML";
-function text1(){
+?>
+
+<br>
+<h7> Print the length of the string </h7>
+<br>
+<?php
+ function text1(){
     $language1="Beverly ";
     $language2="HTML";
     $text3 = $language1." ". $language2;
 }
 text1();
-
 echo $language1 . " " . $language2 ;
-
+?>
+<br>
+<?php
 echo strlen($language1." ".$language2);
+?>
+<br>
+<h7>The sum of 298, 234, 46 </h7>
+<br>
 
+<?php
     $a = 298;
     $b = 234;
     $c = 46;
     $sum= $a + $b + $c;
     
     echo $sum;
+    ?>
+    <br>
+<?php
 echo $_SERVER['HTTP_USER_AGENT'];
 ?>  
 
