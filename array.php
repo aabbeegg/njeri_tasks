@@ -21,16 +21,46 @@ arsort($courses3);
 "<br>";
 krsort($courses3);
 "<br>";
-$courses4=array("php", "html", "javascript", "cms", "project");
+//$courses4=array("php", "html", "javascript", "cms", "project");
+$courses4[0] = "php";
+$courses4[1] = "html";
+$courses4[2] = "javascript";
+$courses4[3] = "cms";
+$courses4[4] = "project";
+echo  strtoupper($courses4[0]);
+?>
+<br>
+<?php
+echo  strtoupper($courses4[1]);
+?>
+<br>
+<?php
+echo  strtoupper($courses4[2]);
+?>
+<br>
+<?php
+echo  strtoupper($courses4[3]);
+?>
+<br>
+<?php
+echo  strtoupper($courses4[4]);
+?>
+<br>
 
 
-for ($x = 0; $x < sizeof($courses4); $x++) {
-  echo  strtoupper($courses4[$x]);
-    
+<?php
+
 $color = array("Red"=>"#FF0000", "Lime"=>"#00FF00", "Blue"=>"#0000FF");
-echo $color['Red'], $color['Lime'], $color['Blue'];
-
-  }
+echo $color['Red'];
+?>
+<?php
+echo $color['Lime'];
+?>
+<?php
+echo $color['Blue'];
+?>
+<?php
+  
 
   
 echo "<hr><h2> Calculation average temperature: </h2>";
