@@ -1,3 +1,4 @@
+<?php include"l.header.php" ?>
 <?php
 $courses=array("PHP","HTML","JavaScript","CMS","Project");
 echo "I like " . $courses[0] . ", " . $courses[1] . " , " . $courses[2] . " , " . $courses[3] . " , " . $courses[4] .".";
@@ -97,3 +98,4 @@ echo $temp_array[$i].", ";
 }
 
 ?>
+<?php include"l.footer.php" ?>
