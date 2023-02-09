@@ -21,7 +21,10 @@
         <li class="nav-item">
           <a class="nav-link" href="controlflow.php">Control Flow</a>
         </li>
-        
+        <li class="nav-item">
+          <a class="nav-link" href="array.php">Array php</a>
+        </li>
+       
         
       </ul>
       <form class="d-flex" role="search">

@@ -4,7 +4,7 @@
 echo date('F') . "<br>";
 //echo "Not August, this is . " + gmdate(" F") + " . so I don't have any holidays";
 if (date('F')) {
-  echo "Not August, this is February so I don't have any holidays";
+  echo "Not August, this is ." . date('F') . ". so I don't have any holidays";
 } else {
   echo "It's August, so it's still holiday.";
 }
@@ -50,7 +50,7 @@ if ($score > 80) {
 <form method="post" action="">
 
   Name: <input type="text" name="name" required>
-  Age: <input type="text" name="age" required><br>
+  Age: <input type="text" name="age" required>
   <input type="submit" name="submit" value="Submit">
 </form>
 <?php
