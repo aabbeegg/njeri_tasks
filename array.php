@@ -22,7 +22,8 @@ arsort($courses3);
 "<br>";
 krsort($courses3);
 "<br>";
-//$courses4=array("php", "html", "javascript", "cms", "project");
+//turning the arrays to uppercase
+
 $courses4[0] = "php";
 $courses4[1] = "html";
 $courses4[2] = "javascript";
