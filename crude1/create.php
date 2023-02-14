@@ -28,7 +28,7 @@ values('$fname', '$lname', '$city', '$groupid')";
 if ($conn->query($sql) === TRUE ){
     echo "Your information is added successfully";
 } else{
-    echo "Error:" .$conn->error;
+    echo "Error:" .$conn -> error;
 }
 
 ?>
