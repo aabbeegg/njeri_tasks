@@ -12,6 +12,14 @@ echo "I like " . $courses1[0] . " , " . $courses1[1] . " , " . $courses1[2] . " 
 ?>
 <br>
 <br>
+<script src="1st-JS.js">
+    <noscript>
+Please enable javascript to view this page
+</noscript>
+<input type="button" onclick="hello()" value="text">
+
+
+</script>
 <?php
 $courses3=array("PHP", "HTML", "JavaScript", "CMS", "Project");
 asort($courses3);
@@ -49,6 +57,9 @@ echo  strtoupper($courses4[4]);
 ?>
 <br>
 
+<script>
+document.write("hello this is interesting!");
+</script>
 
 <?php
 
