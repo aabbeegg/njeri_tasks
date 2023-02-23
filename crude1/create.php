@@ -2,10 +2,10 @@
 $title="A Simple crude app";
 include"../l.header.php";
 ?>
-<form method="post" action="">
-    <input type="text" name="fname" placeholder="First Name" required >
-    <input type="text" name="lname" placeholder="Last Name" required >
-    <input type="text" name="city" placeholder="City" required >
+<form method="post" action="" onsubmit="return crud()" name="form1">
+    <input type="text" name="fname" placeholder="First Name" required ><br><br>
+    <input type="text" name="lname" placeholder="Last Name" required ><br><br>
+    <input type="text" name="city" placeholder="City" required ><br><br>
     <select name="groupid">
         <option value="BBCAP22">BBCAP22</option>
         <option value="BBCAP22">BBCAP23</option>
@@ -28,7 +28,7 @@ values('$fname', '$lname', '$city', '$groupid')";
 if ($conn->query($sql) === TRUE ){
     echo "Your information is added successfully";
 } else{
-    echo "Error:" .$conn -> error;
+    echo "Error";
 }
 
 ?>
