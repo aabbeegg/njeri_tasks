@@ -1,5 +1,7 @@
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous"> 
- <div class="container" >
+ <script src = "1st-JS.js">
+ </script>
+<div class="container" >
     <div class="row">
   <nav class="navbar navbar-expand-lg" style="background-color: pink" >
   <div class="container-fluid">
@@ -14,6 +16,12 @@
         </li>
         <li class="nav-item">
           <a class="nav-link" href="exe1.php">ex1.php</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="exe1.php">ex1.php</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="../crude1/create.php">create.php</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="variable.php">Variable php</a>
