@@ -51,6 +51,7 @@ if ($score > 80) {
 
   Name: <input type="text" name="name" required>
   Age: <input type="text" name="age" required>
+  City: <input type="text" name="age" required>
   <input type="submit" name="submit" value="Submit">
 </form>
 <?php
