@@ -1,26 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
 
-<div class="col-sm-9">
-      <h2>What is bootstrap ? </h2> <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Bootstrap_logo.svg/440px-Bootstrap_logo.svg.png" align="right" height="150" width="150">
-      <p>Bootstrap is a free and open-source CSS framework directed at responsive,
-         mobile-first front-end web development. It contains CSS- and (optionally) 
-         JavaScript-based design templates for typography, forms, buttons, navigation
-          and other interface components.
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title><?php echo $title="header" ?></title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    <script src="../TE-M-14/js/site.js"> </script> 
+  
+  </head>
+  <style>
+  
 
-        <p>Bootstrap is the sixth-most-starred project on GitHub, with more than 135,000 stars, behind freeCodeCamp (almost 307,000 stars) and marginally behind Vue.js framework.[2] According to Alexa Rank, Bootstrap getbootstrap.com
-         is in the top-2000 in US while vuejs.org is in top-7000 in US.[3]</p></p>
-      <br>
-      <h2>Bootstrap 4</h2>
-      <p>
+  /* Add hover effect to navbar links */
+  .navbar-nav .nav-link:hover {
+    color: rgb(195, 118, 17);
+  }
+  
+  /* Style the active navbar link */
+  .navbar-nav .nav-item.active .nav-link {
+    color: rgb(195, 118, 17);
+  }
 
-        Bootstrap 4
-        Mark Otto announced Bootstrap 4 on October 29, 2014.
-        The first alpha version of Bootstrap 4 was released on August 19, 2015.[10]
-         The first beta version was released on 10 August 2017.[11] 
-         Mark suspended work on Bootstrap 3 on September 6, 2016, to free up 
-         time to work on Bootstrap 4.
-         Bootstrap 4 was finalized on January 18, 2018.
-      </p>
-      
-      <p>Article Src: https://en.wikipedia.org/wiki/Bootstrap_(front-end_framework)</p>
+    /* Add hover effect to navbar links */
+    .navbar-nav .nav-link:hover {
+      color: rgb(195, 118, 17);
+    }
+    
+    /* Style the active navbar link */
+    .navbar-nav .nav-item.active .nav-link {
+      color: rgb(195, 118, 17);
+    }
+    .nav-link{
+        background-color:transparent;
+        border-line:none;
+    }
+    /* Style the restaurant logo */
+    .navbar-brand img {
+      width: 60px;
+      height: 60px;
+      margin: auto;
+      background-color: transparent;
+      image color:grey;
+     
+    }
+    .navbar-nav .nav-link {
+      margin: 10px;
+      padding:10px;
+      font: 20px;
+    }
+.container{
+  margin:opx;
+  padding: 1px;
+}
+    </style>
+ 
+ 
+    <body>
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">Salsa<img src="image/logo.png" alt="logo">Restaurant</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+           
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto mb-auto mb-lg-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="array.php">Arrays</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="aboutus.php">About Us</a>
+                    </li>
+                    
+                    <li class="nav-item">
+                        <a class="nav-link" href="contactus.php">Contact Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="controlflow.php">Control Flow</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="exe1.php">Exercise 1</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.php">Index</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="jsinclass.php">Using Javascript</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="layout.php">Layout</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="variable.php">Variable</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="variables.php">Opening Hour</a>
+                    </li>
+                   
+                </ul>
+            </div>
+            </div>
+  
+            </nav>
+       
+    
 
-    </div>
+
+ 

@@ -1,4 +1,4 @@
-<?php include"l.header.php" ?>
+<?php include"header.php" ?>
 <?php
 // Prints the month 
 echo date('F') . "<br>";

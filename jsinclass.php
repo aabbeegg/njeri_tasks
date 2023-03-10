@@ -1,6 +1,6 @@
 
 <?php $title = "Javascript events and form validation";
-include "l.header.php" 
+include "header.php" 
 ?>
 
 <h3> A simple button to display date </h3>

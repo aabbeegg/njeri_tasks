@@ -3,7 +3,7 @@ $title = "Update your info";
 include '../njeri_tasks/l.header.php';
 $a = $_GET['id'];
 include 'db.php';
-$result=mysqli_query($conn,"Select * from studentinfo
+$result=mysqli_query($conn," Select * from studentinfo
 where id='$a' ");
 $row=mysqli_fetch_array($result);
 ?>

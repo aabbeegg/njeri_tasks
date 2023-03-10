@@ -1,4 +1,4 @@
-<?php include"l.header.php" ?>
+<?php include"header.php" ?>
 
             <h1>PHP is interesting</h1>
 <?php
