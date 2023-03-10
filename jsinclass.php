@@ -1,6 +1,6 @@
 
 <?php $title = "Javascript events and form validation";
-include "header.php" 
+
 ?>
 
 <h3> A simple button to display date </h3>
@@ -29,4 +29,4 @@ this.style.backgroundColor='yellow';
 this.style.backgroundColor='white';
 this.style.fontSize='1.1em'";
 >Some text</span>
-<?php include"l.footer.php" ?>
+<?php include "l.footer.php" ?>

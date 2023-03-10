@@ -5,7 +5,7 @@
   <div class="footer-copyright text-center py-3">© 2020 Copyright
   </div>
   <!-- Copyright -->
-  
-
+<?php 
+  echo "Today is " . date("Y.m.d.l") . "<br>";
+?>
 </footer></div>
-</div>

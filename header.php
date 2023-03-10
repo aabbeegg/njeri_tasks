@@ -1,24 +1,24 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <meta charset='utf-8'>
-    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-    <title> <?php $title?> </title> 
-    <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">    
-<style>
+  <head>
+      <meta charset='utf-8'>
+      <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+      <title> <?php $title?> </title> 
+      <meta name='viewport' content='width=device-width, initial-scale=1'>
+      <!-- Bootstrap CSS -->
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">    
+    <style>
 
-.nav-item{
-  color: black;
-}
+    .nav-item{
+      color: black;
+    }
     </style>
-</head>
+  </head>
 <body>
-  <div class="container" >
-    <div class="row">
-  <nav class="navbar navbar-expand-lg" style=" color:  hsla(50, 33%, 25%, .75);" >
-  <div class="container-fluid" style="background-color: rgba(255, 255, 128, .5);" >
+<div class="container" >
+  <div class="row">
+    <nav class="navbar navbar-expand-lg" style=" color:  hsla(50, 33%, 25%, .75);" >
+    <div class="container-fluid" style="background-color: rgba(255, 255, 128, .5);" >
     
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -46,12 +46,12 @@
       </form>
     </div>
   </div>
-</nav>
-</div> 
+  </nav>
+
   <div class="row" style="margin-top: 10px; margin-bottom: 10px; margin-right: 5px;">
     <div class="col-sm-3" style="background-color: rgba(228, 235, 194, 0.353);">
       <h3><b> List of Tasks </b></h3>
-    <p color:black; ><b>Tasks: https://github.com/aabbeegg/njeri-tasks.git</b></p>
+    <p ><b>Tasks: https://github.com/aabbeegg/njeri-tasks.git</b></p>
                     <li class="nav-item">
                         <a class="nav-link" href="array.php">Arrays</a>
                     </li>
@@ -86,10 +86,12 @@
     </div>
 
   </div>
+</div>
+    
  
  
 <!-- Optional JavaScript -->
       <!-- jQuery first, then Popper.js, then Bootstrap JS -->
       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
-    </body>
+</body>
     </html>

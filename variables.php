@@ -1,3 +1,4 @@
+<?php include "header.php" ?>
 <?php 
 //global variables
 $fname="Beverly";
@@ -22,4 +23,4 @@ echo $fname . " " . $lname;
 ?>
 
 </body>
-<?php include"l.footer.php" ?>
+<?php include "l.footer.php" ?>

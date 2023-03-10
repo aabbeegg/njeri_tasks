@@ -1,4 +1,5 @@
-<?php include"header.php" ?>
+<?php include "header.php" ?>
+
 <?php
 // Prints the month 
 echo date('F') . "<br>";
@@ -80,4 +81,4 @@ switch ($user_agent) {
 decide if he/she is eligible for voting. 
 (18 or more than 18 years is eligible for voting,)*/
 ?>
-<?php include"l.footer.php" ?>
+<?php include "l.footer.php" ?>

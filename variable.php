@@ -1,4 +1,4 @@
-<?php include"l.header.php" ?>
+<?php include "header.php" ?>
 <body color="purple">
 <h1>Exercise 3</h1>
 <h3>Hello. You are welcome to my site</h3>
@@ -100,4 +100,4 @@ echo $_SERVER['HTTP_USER_AGENT'];
 
 
 </body>
-<?php include"l.footer.php" ?>
+<?php include "l.footer.php" ?>

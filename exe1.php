@@ -1,4 +1,4 @@
-<?php include"header.php" ?>
+<?php include "header.php" ?>
 
             <h1>PHP is interesting</h1>
 <?php
@@ -42,4 +42,4 @@ $g1=5;
 </table>
 <h3>Screenshot of task 1</h3>
 <img src="screenshot.png" alt = "task 1 screenshot" height="auto" width="650px">
-<?php include"l.footer.php" ?>
+<?php include "l.footer.php" ?>
