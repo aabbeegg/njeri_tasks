@@ -8,7 +8,9 @@
       <!-- Bootstrap CSS -->
       <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">    
     <style>
-
+body{
+  background-color: pink;
+}
     .nav-item{
       color: black;
     }
@@ -25,19 +27,39 @@
     </button>
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-        <li class="nav-item1">
+        <li class="nav-item">
           <a class="nav-link" aria-current="page" href="index.php">Home</a>
-        </li>
-        <li class="nav-item1">
-          <a class="nav-link" href="aboutus.php">About Us</a>
-        </li>
-        <li class="nav-item1">
-          <a class="nav-link" href="aboutus.php">Why CSS is always better than us</a>
-        </li>
-        <li class="nav-item1">
-          <a class="nav-link" href="contactus.php">Contact US</a>
-        </li>
-        
+
+  </li>
+        <li class="nav-item">
+                        <a class="nav-link" href="array.php">Arrays</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="aboutus.php">About Us</a>
+                    </li>
+                    
+                    <li class="nav-item">
+                        <a class="nav-link" href="contactus.php">Contact Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="controlflow.php">Control Flow</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="exe1.php">Exercise 1</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.php">Index</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="jsinclass.php">Using Javascript</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="layout1.html">Layout</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="variables.php">Variable</a>
+                    </li>
+                    
         
       </ul>
       <form class="d-flex" role="search">
@@ -47,7 +69,7 @@
     </div>
   </div>
   </nav>
-
+<!--
   <div class="row" style="margin-top: 10px; margin-bottom: 10px; margin-right: 5px;">
     <div class="col-sm-3" style="background-color: rgba(228, 235, 194, 0.353);">
       <h3><b> List of Tasks </b></h3>
@@ -87,7 +109,7 @@
 
   </div>
 </div>
-    
+  -->   
  
  
 <!-- Optional JavaScript -->

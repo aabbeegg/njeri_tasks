@@ -2,10 +2,11 @@
 
 <?php
 // Prints the month 
+echo "We're in the month of ";
 echo date('F') . "<br>";
 //echo "Not August, this is . " + gmdate(" F") + " . so I don't have any holidays";
 if (date('F')) {
-  echo "Not August, this is ." . date('F') . ". so I don't have any holidays";
+  echo " This is " . date('F') . " so I don't have any holidays";
 } else {
   echo "It's August, so it's still holiday.";
 }
@@ -45,7 +46,10 @@ if ($score > 80) {
 } else if ($score <= 50) {
   echo "Fail";
 }
+?>
 
+<?php 
+echo "Put in your information to verify if you are eligible to vote";
 ?>
 
 <form method="post" action="">
@@ -58,12 +62,12 @@ if ($score > 80) {
 <?php
 
 if (isset($_POST['submit'])) {
-
+  $name = $_POST["name"];
   $age = $_POST["age"];
   if ($age > 18) {
-    echo "You're eligible to vote";
+    echo '$name' + ". You're eligible to vote";
   } else {
-    echo "You're not eligible to vote";
+    echo '$name' + "You're not eligible to vote";
   }
 }
 ?>
